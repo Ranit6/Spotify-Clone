@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #6f6767;
+}
+*{
+  margin: 0 px;
+  padding: 0 px;
+}
+nav{
+  font-family: 'Josefin Sans', sans-serif;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style-type:none;
+  height: 40 px;
+  background-color: black;
+  color: white;
+}
+.brand img{
+  width: 45px;
+  padding: 5px;
+}
+.brand{
+ display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.4rem;
+}
+nav ul li{
+  padding: 0 12px;
+}
+.Container{
+  min-height: 66vh;
+  background-color: black;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  width: 70%;
+  margin: 20px auto;
+  border-radius: 15px;
+  padding: 10px;
+  background: url('background_spotify.jpg');
+  background-repeat: no-repeat;
+  background-size: 80%;
+  
+ 
+  
+}
+.bottom{
+  position: sticky;
+  height: 75px;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icons{
+  margin-top:5px;
+}
+.icons i{
+  cursor: pointer;
+}
+#myProgressBar{
+  width: 80vw;
+  text-align: center;
+  cursor: pointer;
+}
+.songItem{
+  height: 20px;
+  display: flex;
+  width: 30%;
+  margin:12px 0;
+  background-color: #dbe6f5;
+  color: black;
+  justify-content: space-between;
+  align-items:center;
+  border: 2px solid black;
+  border-radius: 34px;
+}
+.songItem img{
+  width: 45px;
+  margin: 0 10 px;
+  border-radius: 30px;
+}
+.timestamp{
+  margin: 0 20px;
+  
+}
+.timestamp i{
+  cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+  left: 10vw;
+   font-family: 'Josefin Sans', sans-serif;
+}
+.songInfo img{
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
